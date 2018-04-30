@@ -1,0 +1,30 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{import}
+\includeonly{peanut_butter_chicken,chicken_fettuccine_alfredo}
+\include{peanut_butter_chicken}
+\include{chicken_fettuccine_alfredo}
+\def\labelitemi{--}
+
+\begin{document}
+
+\author{Tyler J. Roberts}
+\title{CookBook}
+\date{April 2018}
+
+\maketitle
+\newpage
+\tableofcontents
+
+\newpage
+\section{Peanut Butter Chicken}
+\input{recipes/peanut_butter_chicken}
+\newpage
+
+\section{Chicken Fettuccine Alfredo}
+\input{recipes/chicken_fettuccine_alfredo}
+\newpage
+
+
+\end{document}
