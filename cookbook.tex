@@ -2,9 +2,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{import}
-\includeonly{peanut_butter_chicken,chicken_fettuccine_alfredo}
+\usepackage{nicefrac}
 \include{peanut_butter_chicken}
 \include{chicken_fettuccine_alfredo}
+\include{habanero_cookies}
 \def\labelitemi{--}
 
 \begin{document}
@@ -18,13 +19,18 @@
 \tableofcontents
 
 \newpage
-\section{Peanut Butter Chicken}
+\section{Dinner}
+\subsection{Peanut Butter Chicken}
 \input{recipes/peanut_butter_chicken}
 \newpage
 
-\section{Chicken Fettuccine Alfredo}
+\subsection{Chicken Fettuccine Alfredo}
 \input{recipes/chicken_fettuccine_alfredo}
 \newpage
+
+\section{Dessert}
+\subsection{Haba{\~{n}}ero Cookies}
+\input{recipes/habanero_cookies}
 
 
 \end{document}
